@@ -34,7 +34,7 @@ OUTPUT_INFO() {
 
   echo "$RESULT" | while IFS="|" read TYPE_ID ATOMIC_NUMBER SYMBOL NAME ATOMIC_MASS MELTING_C BOILING_C TYPE
   do
-    echo "got it"
+    echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $ATOMIC_MASS amu. $NAME has a melting point of $MELTING_C celsius and a boling point of $BOLING_C celsius."
   done
 }
 
