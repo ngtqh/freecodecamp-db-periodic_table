@@ -1,6 +1,7 @@
 #!/bin/bash
 
 USER_INPUT=$1
+PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
 MAIN() {
   if [[ -z $1 ]]
