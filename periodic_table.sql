@@ -126,6 +126,7 @@ INSERT INTO public.elements VALUES (8, 'O', 'Oxygen');
 INSERT INTO public.elements VALUES (2, 'He', 'Helium');
 INSERT INTO public.elements VALUES (3, 'Li', 'Lithium');
 INSERT INTO public.elements VALUES (1000, 'MT', 'moTanium');
+INSERT INTO public.elements VALUES (9, 'F', 'Fluorine');
 
 
 --
@@ -141,6 +142,7 @@ INSERT INTO public.properties VALUES (6, 'nonmetal', 12.011, 3550, 4027, 1);
 INSERT INTO public.properties VALUES (7, 'nonmetal', 14.007, -210.1, -195.8, 1);
 INSERT INTO public.properties VALUES (8, 'nonmetal', 15.999, -218, -183, 1);
 INSERT INTO public.properties VALUES (1000, 'metalloid', 1, 10, 100, 3);
+INSERT INTO public.properties VALUES (9, 'nonmetal', 18.998, -220, -188.1, 1);
 
 
 --
